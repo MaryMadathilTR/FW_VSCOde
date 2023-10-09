@@ -1,0 +1,21 @@
+INDEX VERSION 1.131+C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\.metadata\.plugins\org.eclipse.jdt.core
+1453932740.index
+3000038466.index
+1874970610.index
+1813476353.index
+1344455232.index
+1943708506.index
+2325700472.index
+3435648363.index
+2033998981.index
+1017788738.index
+2966769119.index
+3531552389.index
+1283343651.index
+3703427064.index
+919094121.index
+55294337.index
+82438378.index
+3526301793.index
+4253537023.index
+2324024127.index

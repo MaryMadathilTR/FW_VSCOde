@@ -1,0 +1,52 @@
+package qa.tests.HomePageTests;
+
+import pageEvents.FilloutFormsEvents;
+import pageEvents.HomePageEvents;
+import pageEvents.LoginPageEvents;
+// import utils.BrowserActions;
+import utils.ElementFetch;
+import base.BaseTest;
+import org.testng.annotations.Test;
+
+import com.beust.jcommander.Parameter;
+
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+
+public class Login_TestCase extends BaseTest {
+    // create object of elementfetch
+    ElementFetch elementFetch = new ElementFetch();
+    // create object of homepageevents
+    HomePageEvents homePageEvents = new HomePageEvents();
+    // create object of loginpageevents
+    LoginPageEvents loginPageEvents = new LoginPageEvents();
+
+    // create object of filloutformsevents
+    FilloutFormsEvents filloutFormsEvents = new FilloutFormsEvents();
+
+    // create a testng test case to verify that login is working
+    @Parameters({ "email", "password" })
+    @Test
+    public void verifyLogin(String email, String password) {
+        // using object of homepageevents click on sign in
+        homePageEvents.signIn();
+        // using object of loginpageevents verify login page
+        loginPageEvents.verifyLoginPage();
+        // using object of loginpageevents login
+        loginPageEvents.login(email, password);
+
+    }
+
+    // create a testng test case to verify that fill out forms link is working
+    @Parameters({ "browser" })
+    @Test
+    public void verifyFillOutForms() {
+        // using object of homepageevents click on sign in
+        homePageEvents.clickFillOutForms();
+        // using object of filloutformsevents verify fillout forms page
+        filloutFormsEvents.verifyFilloutFormsPage();
+    }
+}

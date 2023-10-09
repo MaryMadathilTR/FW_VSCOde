@@ -1,0 +1,13 @@
+package pageEvents;
+
+import pageObjects.HomePageObjects;
+import utils.ElementFetch;
+
+public class HomePageEvents {
+    ElementFetch elementFetch = new ElementFetch();
+
+    public void signIn() {
+        elementFetch.getWebElement("xpath", HomePageObjects.loginLinkXpath).click();
+    }
+
+}

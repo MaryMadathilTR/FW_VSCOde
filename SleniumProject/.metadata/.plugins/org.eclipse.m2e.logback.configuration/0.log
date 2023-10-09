@@ -1,0 +1,382 @@
+2023-09-27 13:54:24,397 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-09-27 13:54:53,815 [Worker-14: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-09-27 13:54:57,141 [Worker-14: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:1.0-SNAPSHOT @ C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\pom.xml.
+2023-09-27 13:55:01,783 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/main/java
+2023-09-27 13:55:01,785 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2023-09-27 13:55:01,792 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/test/java
+2023-09-27 13:55:02,842 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/bonigarcia/webdrivermanager/4.4.3/webdrivermanager-4.4.3-sources.jar
+2023-09-27 13:55:03,025 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/bonigarcia/webdrivermanager/4.4.3/webdrivermanager-4.4.3-sources.jar
+2023-09-27 13:55:03,057 [Worker-28: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.bonigarcia:webdrivermanager:4.4.3
+2023-09-27 13:55:03,444 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4-sources.jar
+2023-09-27 13:55:03,551 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 13:55:03,580 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 13:55:03,584 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 13:55:03,586 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 13:55:05,088 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4-sources.jar
+2023-09-27 13:55:05,102 [Worker-28: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.reactivex.rxjava3:rxjava:3.0.4
+2023-09-27 13:55:06,028 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/freemarker/freemarker/2.3.30/freemarker-2.3.30-sources.jar
+2023-09-27 13:55:06,590 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/freemarker/freemarker/2.3.30/freemarker-2.3.30-sources.jar
+2023-09-27 13:55:06,603 [Worker-28: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.freemarker:freemarker:2.3.30
+2023-09-27 13:55:07,765 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.12/lombok-1.18.12-sources.jar
+2023-09-27 13:55:08,177 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.12/lombok-1.18.12-sources.jar
+2023-09-27 13:55:08,187 [Worker-28: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.projectlombok:lombok:1.18.12
+2023-09-27 13:55:14,472 [Worker-14: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 20 sec
+2023-09-27 13:55:14,537 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 13:55:14,553 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 13:55:14,556 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 13:55:14,558 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 13:56:13,468 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 13:56:13,470 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 13:56:13,473 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 13:56:13,474 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 13:56:32,751 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 13:56:32,753 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 13:56:32,756 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 13:56:32,758 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 13:57:26,066 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 13:57:26,068 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 13:57:26,069 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 13:57:26,071 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 13:57:42,323 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 13:57:42,325 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 13:57:42,327 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 13:57:42,328 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 14:01:02,054 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 14:01:02,056 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 14:01:02,058 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 14:01:02,059 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 14:01:09,129 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 14:01:09,130 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 14:01:09,134 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 14:01:09,136 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 14:01:14,857 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 14:01:14,859 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 14:01:14,861 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 14:01:14,862 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 14:01:26,731 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 14:01:26,734 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 14:01:26,735 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 14:01:26,737 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 14:01:47,240 [Worker-9: Launching Executing clean in C__Projects_Misc_Trainings_Selenium_Copilot_FW_VSCOde_SleniumProject_demo] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo
+2023-09-27 14:01:47,246 [Worker-9: Launching Executing clean in C__Projects_Misc_Trainings_Selenium_Copilot_FW_VSCOde_SleniumProject_demo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2023-09-27 14:01:54,975 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 14:01:54,977 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 14:01:54,979 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 14:01:54,992 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 14:02:02,749 [Worker-22: Launching Executing install in C__Projects_Misc_Trainings_Selenium_Copilot_FW_VSCOde_SleniumProject_demo] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo
+2023-09-27 14:02:02,749 [Worker-22: Launching Executing install in C__Projects_Misc_Trainings_Selenium_Copilot_FW_VSCOde_SleniumProject_demo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2023-09-27 14:02:41,907 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 14:02:41,911 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 14:02:41,937 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 14:02:41,939 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 14:14:49,593 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 14:14:49,596 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 14:14:49,597 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 14:14:49,599 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 15:00:30,434 [Worker-75: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:1.0-SNAPSHOT @ C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\pom.xml.
+2023-09-27 15:00:31,880 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 15:00:31,885 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 15:00:31,888 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 15:00:31,890 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 15:00:45,294 [Worker-79: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 15:00:45,297 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-27 15:00:45,859 [Worker-79: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 15:00:45,860 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 15:03:23,763 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 15:03:23,766 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 15:03:23,768 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 15:03:23,769 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 15:03:34,493 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 15:03:34,496 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 15:03:34,499 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 15:03:34,500 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 15:03:57,051 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.5; built: 2021-06-11T14:18:43.438Z; git: dc21b2d73cafd78a56e8e532cf50863739bd7027; jvm 16.0.2+7-67
+2023-09-27 15:03:57,114 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2023-09-27 15:03:57,162 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@72335f65{/help,null,AVAILABLE}
+2023-09-27 15:03:57,199 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@129f634f{HTTP/1.1, (http/1.1)}{127.0.0.1:53495}
+2023-09-27 15:03:57,202 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@59556953{STARTING}[10.0.5,sto=0] @4253569ms
+2023-09-27 15:04:48,002 [Worker-83: Launching Executing clean in C__Projects_Misc_Trainings_Selenium_Copilot_FW_VSCOde_SleniumProject_demo] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo
+2023-09-27 15:04:48,002 [Worker-83: Launching Executing clean in C__Projects_Misc_Trainings_Selenium_Copilot_FW_VSCOde_SleniumProject_demo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2023-09-27 15:04:59,629 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 15:04:59,650 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 15:04:59,653 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 15:04:59,655 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 15:05:28,913 [Worker-83: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-09-27 15:05:29,642 [Worker-83: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:1.0-SNAPSHOT @ C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\pom.xml.
+2023-09-27 15:05:30,952 [Worker-83: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/main/java
+2023-09-27 15:05:30,953 [Worker-83: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2023-09-27 15:05:30,954 [Worker-83: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/test/java
+2023-09-27 15:05:31,926 [Worker-83: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2023-09-27 15:05:33,754 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 15:05:33,757 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 15:05:33,760 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 15:05:33,762 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 15:06:27,495 [Worker-78: Launching Executing install in C__Projects_Misc_Trainings_Selenium_Copilot_FW_VSCOde_SleniumProject_demo] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo
+2023-09-27 15:06:27,496 [Worker-78: Launching Executing install in C__Projects_Misc_Trainings_Selenium_Copilot_FW_VSCOde_SleniumProject_demo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2023-09-27 15:07:27,033 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 15:07:27,038 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 15:07:27,040 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 15:07:27,041 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 15:10:37,703 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 15:10:37,706 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 15:10:37,708 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 15:10:37,710 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 15:32:37,633 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 15:32:37,635 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 15:32:37,637 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 15:32:37,638 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 15:36:23,332 [Worker-86: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:1.0-SNAPSHOT @ C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\pom.xml.
+2023-09-27 15:36:23,850 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 15:36:23,853 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 15:36:24,368 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 15:36:24,369 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 15:36:50,689 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 15:36:50,692 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 15:36:50,694 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 15:36:50,695 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 15:37:16,164 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 15:37:16,166 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 15:37:16,168 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 15:37:16,169 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 16:36:39,161 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 16:36:39,165 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 16:36:39,167 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 16:36:39,169 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 16:36:48,128 [Worker-94: Launching Executing clean in C__Projects_Misc_Trainings_Selenium_Copilot_FW_VSCOde_SleniumProject_demo] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo
+2023-09-27 16:36:48,128 [Worker-94: Launching Executing clean in C__Projects_Misc_Trainings_Selenium_Copilot_FW_VSCOde_SleniumProject_demo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2023-09-27 16:36:56,286 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 16:36:56,288 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 16:36:56,290 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 16:36:56,291 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 16:37:05,015 [Worker-94: Launching Executing install in C__Projects_Misc_Trainings_Selenium_Copilot_FW_VSCOde_SleniumProject_demo] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo
+2023-09-27 16:37:05,015 [Worker-94: Launching Executing install in C__Projects_Misc_Trainings_Selenium_Copilot_FW_VSCOde_SleniumProject_demo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2023-09-27 16:37:28,893 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 16:37:28,904 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 16:37:28,905 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 16:37:28,906 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 16:38:54,523 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 16:38:54,526 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 16:38:54,529 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 16:38:54,541 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 16:40:27,678 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 16:40:27,681 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 16:40:27,683 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 16:40:27,685 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 16:40:46,643 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 16:40:46,646 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 16:40:46,648 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 16:40:46,649 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 16:43:06,749 [Worker-92: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-09-27 16:43:07,519 [Worker-92: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:1.0-SNAPSHOT @ C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\pom.xml.
+2023-09-27 16:43:08,548 [Worker-92: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/main/java
+2023-09-27 16:43:08,549 [Worker-92: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2023-09-27 16:43:08,550 [Worker-92: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/test/java
+2023-09-27 16:43:09,336 [Worker-92: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2023-09-27 16:43:11,124 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 16:43:11,126 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 16:43:11,129 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 16:43:11,130 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 16:43:43,267 [Worker-94: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 16:43:43,273 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 16:43:43,275 [Worker-94: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 16:43:43,277 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 16:44:36,600 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 16:44:36,603 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 16:44:36,604 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 16:44:36,605 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 16:45:18,609 [Worker-94: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 16:45:18,619 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 16:45:18,622 [Worker-94: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 16:45:18,625 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 16:45:39,809 [Worker-90: Launching Executing install in C__Projects_Misc_Trainings_Selenium_Copilot_FW_VSCOde_SleniumProject_demo] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo
+2023-09-27 16:45:39,810 [Worker-90: Launching Executing install in C__Projects_Misc_Trainings_Selenium_Copilot_FW_VSCOde_SleniumProject_demo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2023-09-27 16:57:19,342 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 16:57:19,347 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 16:57:19,349 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 16:57:19,350 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 17:29:27,332 [Worker-105: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 17:29:27,335 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 17:29:27,337 [Worker-105: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 17:29:27,338 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 17:29:47,600 [Worker-106: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 17:29:47,603 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 17:29:47,605 [Worker-106: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 17:29:47,606 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 17:30:22,135 [Worker-105: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-09-27 17:30:22,755 [Worker-105: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:1.0-SNAPSHOT @ C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\pom.xml.
+2023-09-27 17:30:23,640 [Worker-105: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/main/java
+2023-09-27 17:30:23,641 [Worker-105: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2023-09-27 17:30:23,642 [Worker-105: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/test/java
+2023-09-27 17:30:24,500 [Worker-105: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2023-09-27 17:30:25,377 [Worker-110: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 17:30:25,379 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 17:30:25,382 [Worker-110: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 17:30:25,383 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-27 20:33:28,222 [Worker-125: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 20:33:28,276 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 20:33:28,279 [Worker-125: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 20:33:28,280 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-28 16:56:02,199 [Worker-163: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-28 16:56:02,208 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-28 16:56:02,210 [Worker-163: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-28 16:56:02,211 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-28 21:04:50,269 [Worker-187: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-28 21:04:50,275 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-28 21:04:50,277 [Worker-187: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-28 21:04:50,278 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-28 21:05:07,592 [Worker-190: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-28 21:05:07,596 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-28 21:05:07,599 [Worker-190: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-28 21:05:07,600 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-28 21:05:32,557 [Worker-190: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-28 21:05:32,559 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-28 21:05:32,561 [Worker-190: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-28 21:05:32,562 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-28 21:05:35,460 [Worker-188: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-28 21:05:35,463 [Worker-188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-28 21:05:35,465 [Worker-188: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-28 21:05:35,466 [Worker-188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-28 21:07:37,769 [Worker-188: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-28 21:07:37,771 [Worker-188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-28 21:07:37,772 [Worker-188: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-28 21:07:37,773 [Worker-188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-28 21:10:28,835 [Worker-188: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-28 21:10:28,837 [Worker-188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-28 21:10:28,838 [Worker-188: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-28 21:10:28,839 [Worker-188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-28 21:22:14,133 [Worker-189: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-28 21:22:14,137 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-28 21:22:14,139 [Worker-189: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-28 21:22:14,141 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-28 21:35:34,438 [Worker-189: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-28 21:35:34,635 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-28 21:35:34,638 [Worker-189: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-28 21:35:34,640 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-29 09:47:14,450 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@59556953{STOPPING}[10.0.5,sto=0]
+2023-09-29 09:47:14,479 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@129f634f{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2023-09-29 09:47:14,840 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@72335f65{/help,null,STOPPED}
+2023-09-29 10:03:05,171 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-09-29 10:03:06,829 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:03:06,838 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-29 10:03:06,843 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:03:06,845 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-29 10:07:21,049 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-09-29 10:07:31,782 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-09-29 10:07:32,433 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:1.0-SNAPSHOT @ C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\pom.xml.
+2023-09-29 10:07:33,082 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/main/java
+2023-09-29 10:07:33,082 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2023-09-29 10:07:33,083 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/test/java
+2023-09-29 10:07:33,368 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2023-09-29 10:07:33,888 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:07:33,889 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-29 10:07:33,891 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:07:33,892 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-29 10:08:30,487 [Worker-35: Launching Executing clean in C__Projects_Misc_Trainings_Selenium_Copilot_FW_VSCOde_SleniumProject_demo] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo
+2023-09-29 10:08:30,489 [Worker-35: Launching Executing clean in C__Projects_Misc_Trainings_Selenium_Copilot_FW_VSCOde_SleniumProject_demo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2023-09-29 10:08:32,620 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:08:32,625 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-29 10:08:32,626 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:08:32,627 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-29 10:09:25,884 [Worker-18: Launching Executing install in C__Projects_Misc_Trainings_Selenium_Copilot_FW_VSCOde_SleniumProject_demo] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo
+2023-09-29 10:09:25,885 [Worker-18: Launching Executing install in C__Projects_Misc_Trainings_Selenium_Copilot_FW_VSCOde_SleniumProject_demo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2023-09-29 10:18:43,618 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:18:43,620 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-29 10:18:43,621 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:18:43,621 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-29 10:19:03,096 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.5; built: 2021-06-11T14:18:43.438Z; git: dc21b2d73cafd78a56e8e532cf50863739bd7027; jvm 16.0.2+7-67
+2023-09-29 10:19:03,115 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2023-09-29 10:19:03,141 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@4a64bf44{/help,null,AVAILABLE}
+2023-09-29 10:19:03,160 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@630cf0c7{HTTP/1.1, (http/1.1)}{127.0.0.1:59372}
+2023-09-29 10:19:03,162 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@2a4a0ddf{STARTING}[10.0.5,sto=0] @997807ms
+2023-09-29 10:19:52,100 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:19:52,102 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-29 10:19:52,103 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:19:52,104 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-29 10:20:09,662 [Worker-35: Launching Executing clean in C__Projects_Misc_Trainings_Selenium_Copilot_FW_VSCOde_SleniumProject_demo] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo
+2023-09-29 10:20:09,663 [Worker-35: Launching Executing clean in C__Projects_Misc_Trainings_Selenium_Copilot_FW_VSCOde_SleniumProject_demo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2023-09-29 10:20:11,868 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:20:11,869 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-29 10:20:11,870 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:20:11,870 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-29 10:20:22,566 [Worker-37: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-09-29 10:20:22,809 [Worker-37: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:1.0-SNAPSHOT @ C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\pom.xml.
+2023-09-29 10:20:23,112 [Worker-37: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/main/java
+2023-09-29 10:20:23,112 [Worker-37: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2023-09-29 10:20:23,113 [Worker-37: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/test/java
+2023-09-29 10:20:23,336 [Worker-37: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-09-29 10:20:23,722 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:20:23,723 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-29 10:20:23,724 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:20:23,725 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-29 10:21:35,669 [Worker-36: Launching Login_TestCase.verifyFillOutForms] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:21:35,671 [Worker-36: Launching Login_TestCase.verifyFillOutForms] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-29 10:21:35,674 [Worker-36: Launching Login_TestCase.verifyFillOutForms] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:21:35,675 [Worker-36: Launching Login_TestCase.verifyFillOutForms] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-29 10:23:30,942 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:23:30,943 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-29 10:23:30,944 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:23:30,945 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-29 10:50:51,266 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:50:51,267 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-29 10:50:51,268 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:50:51,268 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-29 10:51:10,953 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:51:10,954 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-29 10:51:10,955 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:51:10,955 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-29 10:51:48,616 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:51:48,617 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-29 10:51:48,617 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:51:48,618 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-29 10:52:50,921 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:52:50,922 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-29 10:52:50,923 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:52:50,924 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-29 10:54:27,552 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:54:27,552 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-29 10:54:27,554 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:54:27,555 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-29 10:54:32,732 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:54:32,733 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-29 10:54:32,734 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 10:54:32,734 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-29 11:10:37,436 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 11:10:37,437 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-29 11:10:37,438 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 11:10:37,439 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-29 11:10:38,501 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 11:10:38,503 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-29 11:10:38,504 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 11:10:38,505 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-29 11:14:44,386 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 11:14:44,387 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-29 11:14:44,388 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-29 11:14:44,389 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-30 15:51:13,353 [Worker-196: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-09-30 15:51:13,433 [Worker-196: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.example:UltimateQA:1.0-SNAPSHOT @ C:\Projects\Misc\Trainings\Selenium_Copilot\UltimateQA\pom.xml.
+2023-09-30 15:51:13,638 [Worker-196: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UltimateQA/src/main/java
+2023-09-30 15:51:13,638 [Worker-196: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UltimateQA/src/main/resources
+2023-09-30 15:51:13,640 [Worker-196: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UltimateQA/src/test/java
+2023-09-30 15:51:13,832 [Worker-196: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-09-30 15:51:13,952 [Worker-195: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-30 15:51:13,955 [Worker-195: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-30 15:51:13,956 [Worker-195: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-30 15:51:13,957 [Worker-195: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\UltimateQA\src\test\resources
+2023-09-30 15:51:14,013 [Worker-195: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:1.0-SNAPSHOT @ C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\pom.xml.
+2023-09-30 15:51:14,284 [Worker-195: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-30 15:51:14,284 [Worker-195: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-30 15:51:14,285 [Worker-195: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-30 15:51:14,286 [Worker-195: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\FW_VSCOde\SleniumProject\demo\src\test\resources
+2023-09-30 15:52:02,812 [Worker-194: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-30 15:52:02,813 [Worker-194: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-30 15:52:02,814 [Worker-194: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-30 15:52:02,815 [Worker-194: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\UltimateQA\src\test\resources
+2023-09-30 15:52:46,642 [Worker-198: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-30 15:52:46,643 [Worker-198: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-30 15:52:46,644 [Worker-198: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-30 15:52:46,644 [Worker-198: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\UltimateQA\src\test\resources
+2023-09-30 15:53:00,997 [Worker-196: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:1.0-SNAPSHOT @ C:\Projects\Misc\Trainings\Selenium_Copilot\UltimateQA\pom.xml.
+2023-09-30 15:53:01,247 [Worker-196: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-30 15:53:01,248 [Worker-196: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-30 15:53:01,250 [Worker-196: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-30 15:53:01,251 [Worker-196: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projects\Misc\Trainings\Selenium_Copilot\UltimateQA\src\test\resources

@@ -1,0 +1,97 @@
+package base;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+import utils.Constants;
+
+import java.lang.reflect.Method;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
+
+import com.aventstack.extentreports.*;
+import com.aventstack.extentreports.markuputils.ExtentColor;
+import com.aventstack.extentreports.markuputils.MarkupHelper;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.reporter.configuration.Theme;
+
+public class BaseTest {
+    public ExtentReports extent;
+    public static WebDriver driver;
+    public ExtentTest logger;
+
+    public ExtentSparkReporter sparkReporter;
+
+    @BeforeTest
+    public void setUp() {
+        // code to set up test environment
+        sparkReporter = new ExtentSparkReporter("test-output/SparkReport.html");
+        extent = new ExtentReports();
+        extent.attachReporter(sparkReporter);
+        sparkReporter.config().setTheme(Theme.DARK);
+        extent.attachReporter(sparkReporter);
+        extent.setSystemInfo("Tester", "Mary Madathil");
+        extent.setSystemInfo("HostName", "Chrome");
+        sparkReporter.config().setDocumentTitle("Extent Report Demo");
+        sparkReporter.config().setReportName("Test Report");
+    }
+
+    @BeforeMethod
+    @Parameters("browser")
+    public void beforeMethod(String browser, Method testMethod) {
+        // code to run before each test method
+        logger = extent.createTest(testMethod.getName());
+        setUpDriver(browser);
+        driver.get(Constants.URL);
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    }
+
+    @AfterMethod
+    public void afterMethod(ITestResult result) {
+        if (result.getStatus() == ITestResult.FAILURE) {
+            logger.log(Status.FAIL,
+                    MarkupHelper.createLabel(result.getName() + "Test Case Failed ", ExtentColor.RED));
+            logger.log(Status.FAIL,
+                    MarkupHelper.createLabel(result.getThrowable() + "Test Case Failed ", ExtentColor.RED));
+        } else if (result.getStatus() == ITestResult.SKIP) {
+            logger.log(Status.SKIP,
+                    MarkupHelper.createLabel(result.getName() + "Test case Skipped", ExtentColor.ORANGE));
+        } else if (result.getStatus() == ITestResult.SUCCESS) {
+            logger.log(Status.PASS,
+                    MarkupHelper.createLabel(result.getName() + "Test case Passed", ExtentColor.GREEN));
+        }
+        // close driver
+        driver.quit();
+
+    }
+
+    @AfterTest
+    public void tearDown() {
+        // code to tear down test environment
+        extent.flush();
+    }
+
+    public void setUpDriver(String browser) {
+        if (browser.equalsIgnoreCase("chrome")) {
+            System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+            driver = new ChromeDriver();
+        } else if (browser.equalsIgnoreCase("firefox")) {
+            WebDriverManager.firefoxdriver().setup();
+            driver = new FirefoxDriver();
+        } else if (browser.equalsIgnoreCase("edge")) {
+            WebDriverManager.edgedriver().setup();
+            driver = new EdgeDriver();
+        } else {
+            System.out.println("Please pass the correct browser name: " + browser);
+        }
+    }
+}
